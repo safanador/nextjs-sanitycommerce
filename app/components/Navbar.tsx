@@ -38,7 +38,7 @@ export default function Navbar(){
                 ))}
             </nav>
             <div className="flex divide-x border-r sm:border-l">
-                <Button onClick={()=> handleCartClick()} variant={"outline"} className="flex flex-col gap-y-1.5 h-12 w-12 sm:h-20 md:h-24 md:w-24 rounded-none">
+                <Button onClick={()=> handleCartClick()} variant={"outline"} className="flex flex-col gap-y-1.5 h-12 w-12 sm:h-14 md:h-20 md:w-20 rounded-none">
                 <ShoppingBag/>
                 <span className="hidden text-xs font-semibold text-gray-500 sm:block">
                         Cart
